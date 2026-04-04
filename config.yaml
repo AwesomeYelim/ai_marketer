@@ -1,0 +1,10 @@
+llm:
+  # API key can also be set via ANTHROPIC_API_KEY environment variable
+  api_key: ""
+  model: "claude-sonnet-4-6"
+
+pipeline:
+  max_retries: 2
+
+prompts:
+  dir: "prompts"
